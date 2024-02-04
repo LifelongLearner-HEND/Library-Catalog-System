@@ -47,7 +47,6 @@ index to get the results.
 | Author.txt | Author data records in sequential order separated with a pipe | Author ID, Author Name, Address |
 | Book.txt | Books data records in sequential order separated with a pipe | ISBN Book, Title, Author ID |
 | PrimaryIndexAuthor.txt | Primary index file for author using Author ID and byte offset separated with a single space | Author ID, offset |
-| PrimaryIndexAuthor.txt | Primary index file for author using Author ID and byte offset separated with a single space | Author ID, offset |
 | PrimaryIndexBook.txt | Primary index file for book using Book ISBN and byte offset separated with a single space | Book ISBN, offset |
 | SecondaryIndexAuthor.txt | Secondary index file for author using Author Name and a pointer to a record in a linked list separated with a single space | Name, Pointer |
 | SecondaryIndexBook.txt | Secondary index file for book using Author ID and a pointer to a record in a linked list separated with a single space | Author ID, Pointer |
